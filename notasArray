@@ -1,0 +1,7 @@
+int[] notas = { 18, 20,15,12};
+
+console.writeline("Notas del estudiante:");
+for (int i = 0; i < notas.Length; i++)
+{
+    console.writeline($"Nota {i + 1}: {notas[i]}");
+} 
